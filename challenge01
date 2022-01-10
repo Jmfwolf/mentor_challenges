@@ -1,0 +1,4 @@
+
+Write a function that can compute b^e for fairly large e in, at  worst, O(log2 e) time.
+Bonus points if it's recursive. Double bonus points if it's tail recursive.
+And triple bonus points if it works for any numeric type b and returns the same type as the answer. It's permissable for the result to be undefined behavior if the answer would overflow b.

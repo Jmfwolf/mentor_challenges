@@ -27,5 +27,5 @@ T exponent(const T& base, unsigned int exp)
     {
         return base;
     }
-    return exponent(base, exp/2) + exponent(base, exp/2) + (exp%2 * base);
+    return exponent(base, exp/2) * exponent(base, exp/2) * (exp%2 * base);
 }

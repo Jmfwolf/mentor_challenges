@@ -9,7 +9,7 @@ e is an unsigned int.
 #include <iostream>
 
 template<typename T>
-T exponent(T base, unsigned int exp);
+T exponent(const T& base, unsigned int exp);
 
 int main(){
 
@@ -17,7 +17,7 @@ int main(){
 }
 
 template<typename T>
-T exponent(T& base, unsigned int exp)
+T exponent(const T& base, unsigned int exp)
 {
     if(exp == 0)
     {

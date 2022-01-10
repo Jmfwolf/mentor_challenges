@@ -8,8 +8,6 @@ e is an unsigned int.
 */
 #include <iostream>
 
-#include <cstddef>
-
 template<typename T>
 T exponent(T base, unsigned int exp);
 
